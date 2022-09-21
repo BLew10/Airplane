@@ -1,0 +1,43 @@
+#ocean {
+    background-image: url('ocean.jpg');
+    width: 900px;
+    height: 700px;
+}
+
+.enemy {
+    background-image: url('enemy.png');
+    position: absolute;
+    width: 70px;
+    height: 75px;
+    top: 0px;
+    left: 450px;
+}
+
+.player {
+    background-image: url('player.png');
+    position: absolute;
+    width: 70px;
+    height: 75px;
+    top: 620px;
+    left: 450px;
+}
+
+.missle {
+    background-color: orange;
+    position: absolute;
+    width: 3px;
+    height: 10px;
+}
+
+.new-enemy {
+    background-image: url('old.png');
+    transform: rotate(180deg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 75px;
+    top: 0px;
+    left: 450px;
+}
